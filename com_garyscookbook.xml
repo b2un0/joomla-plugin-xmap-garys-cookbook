@@ -82,7 +82,7 @@
 			</fieldset>
 		</fields>
 	</config>
-	<!-- <updateservers>
+	<updateservers>
 		<server type="extension" priority="1" name="Xmap - Gary´s Cookbook">http://www.z-index.net/en/joomla-xmap-plugins/xmap-garys-cookbook/updatestream.xml</server>
-	</updateservers> -->
+	</updateservers>
 </extension>
