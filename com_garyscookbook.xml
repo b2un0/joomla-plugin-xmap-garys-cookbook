@@ -83,6 +83,6 @@
 		</fields>
 	</config>
 	<updateservers>
-        <server type="collection" priority="1" name="z-index development">http://www.z-index.net/en/extensions.xml</server>
-    </updateservers>
+		<server type="collection" priority="1" name="z-index development">http://www.z-index.net/en/extensions.xml</server>
+	</updateservers>
 </extension>
