@@ -3,7 +3,7 @@
     <name>Xmap - Gary´s Cookbook</name>
     <author>Branko Wilhelm</author>
     <creationDate>Sep 2013</creationDate>
-    <copyright>Copyright (C) 2013 - 2014 Branko Wilhelm</copyright>
+    <copyright>Copyright (C) 2013 - 2015 Branko Wilhelm</copyright>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
     <authorEmail>branko.wilhelm@gmail.com</authorEmail>
     <authorUrl>www.z-index.net</authorUrl>
@@ -15,8 +15,8 @@
     <updateservers>
         <server type="collection" priority="1" name="z-index development">http://www.z-index.net/en/extensions.xml</server>
     </updateservers>
-    <languages folder="lang">
-        <language tag="en-GB">en-GB.plg_xmap_com_garyscookbook.ini</language>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_xmap_com_garyscookbook.ini</language>
     </languages>
     <config>
         <fields name="params">
