@@ -9,19 +9,17 @@
 
 defined('_JEXEC') or die;
 
-final class xmap_com_garyscookbook
+class xmap_com_garyscookbook
 {
-
     private static $views = array('category', 'categories');
+
     private static $enabled = false;
 
     public function __construct()
     {
         self::$enabled = JComponentHelper::isEnabled('com_garyscookbook');
 
-        if (self::$enabled) {
-            require_once JPATH_SITE . '/components/com_garyscookbook/helpers/route.php';
-        }
+        JLoader::register('GaryscookbookHelperRoute', JPATH_SITE . '/components/com_garyscookbook/helpers/route.php');
     }
 
     public static function getTree(XmapDisplayer &$xmap, stdClass &$parent, array &$params)
