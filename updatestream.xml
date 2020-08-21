@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<updates>
+    <update>
+        <name>Xmap - Gary´s Cookbook Integration</name>
+        <element>com_garyscookbook</element>
+        <type>plugin</type>
+        <client>0</client>
+        <folder>xmap</folder>
+        <version>1.0.0</version>
+        <infourl>https://github.com/z-index-net/joomla-plugin-xmap-garys-cookbook</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/z-index-net/joomla-plugin-xmap-garys-cookbook/releases/download/1.0.0/joomla-plugin-xmap-garys-cookbook.zip</downloadurl>
+        </downloads>
+        <targetplatform name="joomla" version="^3\."/>
+    </update>
+</updates>
+
